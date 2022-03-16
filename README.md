@@ -28,7 +28,7 @@ After that change, we ran the following analysis:
 
 ### The district summary
 
- We recalculated the total student count by subtracting the number of ninth-grade students in Thomas High School from the total student count, then we recalculated the passing math and passing reading percentages, and the overall passing percentage with the recalculated total student count. The overall numbers got changed by less than a percent for the district wide test scores and perecentages as shown in the images below from original analysis vs revised analysis table:
+ We recalculated the total student count by subtracting the number of ninth-grade students in Thomas High School from the total student count, then we recalculated the passing math and passing reading percentages, and the overall passing percentage with the recalculated total student count. The overall numbers got changed by less than a fractionof a percent for the district wide test scores and perecentages as shown in the images below from original analysis vs revised analysis table:
  
   __Original District Analysis DataFrame__
  ![Screen Shot 2022-03-15 at 2 04 57 PM](https://user-images.githubusercontent.com/98566486/158443151-f08ba6f4-714c-4050-b07a-399cb7f0a71e.png)
@@ -42,20 +42,30 @@ After that change, we ran the following analysis:
 We executed the code from this module that created and formated the School Summary DataFrame, then wecupdated the school summary using the 10th-12th graders from Thomas High School by calculating the number of 10th-12th graders in Thomas High School. We Created three new DataFrames for the 10th-12th graders from Thomas High School: students who passed math, students who passed reading, and students who passed both math and reading.
 Using these DataFrames, we recalculated the percentage of students who passed math, passed reading, and passed both math and reading for Thomas High School only.
 Finally, we replaced the % Passing Math, % Passing Reading, and % Overall Passing scores in the current School Summary DataFrame with the new passing percentages for Thomas High School.
-The revised analysis for Thomas School showed that overall passing score was changed slightly from 90.94% to 90.63%. However, the ranking per school based on budget dropped significately from around 91% to 65%. 
+The revised analysis for Thomas School showed that overall passing score was changed slightly from 90.94% to 90.63%. 
 
-### The top 5 and bottom 5 performing schools, based on the overall passing rate
- 
+### The top 5 and bottom 5 performing schools, based on the overall passing rate:
 
-* The average math score for each grade level from each school
-* The average reading score for each grade level from each school
-* The scores by school spending per student, by school size, and by school type
+##### Top five schools are as follow:
+
+![Screen Shot 2022-03-16 at 11 21 44 AM](https://user-images.githubusercontent.com/98566486/158625433-8d51833d-72e3-4996-ac82-c7d727881c89.png)
+
+##### Bottom five schools are as follow:
+
+![Screen Shot 2022-03-16 at 11 22 17 AM](https://user-images.githubusercontent.com/98566486/158625577-8a0fabf1-8060-43d9-b76c-d5042f9a9769.png)
+
+### The average math score for each grade level from each school
+![Screen Shot 2022-03-16 at 11 24 30 AM](https://user-images.githubusercontent.com/98566486/158626047-b4686c64-d041-42f2-9e06-44847271cbbf.png)
 
 
+### The average reading score for each grade level from each school
+![Screen Shot 2022-03-16 at 11 28 19 AM](https://user-images.githubusercontent.com/98566486/158626878-3c0ab70b-908d-40fe-b9e0-2e223d2c8998.png)
 
+### The scores by school spending per student, by school size, and by school type
 
+![Screen Shot 2022-03-16 at 11 29 55 AM](https://user-images.githubusercontent.com/98566486/158627202-bc401a78-c93c-4adf-b18c-90d7cfd00cff.png)
+![Screen Shot 2022-03-16 at 11 30 54 AM](https://user-images.githubusercontent.com/98566486/158627408-e21a093f-9165-4010-8dff-971e70e48b10.png)
+![Screen Shot 2022-03-16 at 11 32 05 AM](https://user-images.githubusercontent.com/98566486/158627635-2ff203eb-06f6-47e7-b050-b18fbd87faf5.png)
 
-Summary:
-
-There is a statement summarizing four changes to the school district analysis after reading and math scores have been replaced (5 pt).
-Challenge
+## Summary:
+In conclusion, we found that changing Thomas School's 9th grade math and reading scores have a minor change for the overall school district results.  The overall passing percentage will still remain same if we round it to the full number from 64.9% to 65%.  However, Thomas High School overall passing dropped drasictily based on per school speding per student criteria from 90.95% to 65.07%.   Thomas High School still shows in top five schools district wide.  The changes didn't have major impact on district wide analysis results, but we can see a dip in overall passing at the per school budget levels.  
