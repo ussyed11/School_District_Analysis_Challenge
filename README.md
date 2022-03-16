@@ -42,9 +42,10 @@ After that change, we ran the following analysis:
 We executed the code from this module that created and formated the School Summary DataFrame, then wecupdated the school summary using the 10th-12th graders from Thomas High School by calculating the number of 10th-12th graders in Thomas High School. We Created three new DataFrames for the 10th-12th graders from Thomas High School: students who passed math, students who passed reading, and students who passed both math and reading.
 Using these DataFrames, we recalculated the percentage of students who passed math, passed reading, and passed both math and reading for Thomas High School only.
 Finally, we replaced the % Passing Math, % Passing Reading, and % Overall Passing scores in the current School Summary DataFrame with the new passing percentages for Thomas High School.
-The revised analysis for Thomas School showed that overall passing score was changed slightly from 90.94% to 90.63%.  
+The revised analysis for Thomas School showed that overall passing score was changed slightly from 90.94% to 90.63%. However, the ranking per school based on budget dropped significately from around 91% to 65%. 
 
 ### The top 5 and bottom 5 performing schools, based on the overall passing rate
+ 
 
 * The average math score for each grade level from each school
 * The average reading score for each grade level from each school
